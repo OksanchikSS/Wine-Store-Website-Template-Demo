@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-</head>
-<body>
-
-</body>
+    <link
+      rel="shortcut icon"
+      href="https://placekitten.com/96/139"
+      type="image/x-icon"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header
+      style="
+        background: url('background-image.jpeg') no-repeat center center/cover;
+        padding: 1.5rem 0;
+        text-align: center;
+      "
+    >
+      <a href="#">
+        <img src="logo-white.svg" alt="WineStore Logo" style="height: 60px" />
+      </a>
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="logo">WineStore</a>
+          <ul class="nav-menu">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#products">Вина</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+          <div class="nav-icons">
+            <a href="#"><img src="icons/cart.svg" alt="Cart" /></a>
+            <a href="#"><img src="icons/user.svg" alt="User" /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>WineStore</h3>
+          <p>
+            The finest wines from around the world. We combine taste, quality,
+            and tradition.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Our Wines</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <p>📍 Berlin, Wine Street 12</p>
+          <p>📞 +49 123 456 789</p>
+          <p>✉️ info@winestore.de</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 WineStore. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
